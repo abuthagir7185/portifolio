@@ -1,10 +1,21 @@
 const path = require('path');
 
 module.exports = {
-    entry: 'C:\javascript programming\new projects\script.js',  // Unga project main JS file
+    mode: 'development', // or 'production'
+    entry: path.resolve(__dirname, 'C:/javascript programming/new projects/script.js'),
     output: {
-        filename: 'bundle.js',  // Output filename
+        filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
     },
-    mode: 'development',  // or 'production' depending on need
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                },
+            },
+        ],
+    },
 };

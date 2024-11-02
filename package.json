@@ -15,7 +15,7 @@
         "webpack-cli": "^4.0.0"
     },
     "engines": {
-        "node": "14.x"
+        "node": "20.x"
     },
     "license": "ISC",
     "devDependencies": {

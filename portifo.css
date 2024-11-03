@@ -963,7 +963,7 @@ height: 50vh;
     padding: 20px;
     display: flex;
     height: 50px;
- 
+    border-radius: 50%;
 }
 .boxes2 .img1{
     margin-left: 20px; 
@@ -1145,6 +1145,7 @@ height: 50vh;
     .boxes2 img{
         height: 50px;
         padding: 10px;
+        border-radius: 50% !important;
     }
     .boxes2 .img3{
       padding-right: 20px !important;

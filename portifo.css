@@ -13,11 +13,7 @@
 }
 @font-face {
     font-family: font3;
-<<<<<<< HEAD
     src: url(fonts/Algance-Regular.otf);
-=======
-    src: url(fonts/Algance-Regular.otffonts/CuriousTrackDemoRegular.ttf);
->>>>>>> 357cde5 ( my new portifolio)
 }
 @font-face {
     font-family: font9;
@@ -198,8 +194,6 @@ font-family: font1;
     font-family: font7;/* font11*/
     font-size: 35px;
     animation: downslide alternate;
-    animation-timing-function: ;
-
 }
 .content .words{
     display: inline;
@@ -238,7 +232,7 @@ font-family: font1;
 }
 .button .button1{
     letter-spacing: 2px;
-    padding: 10px 30px;
+    padding: 10px 25px;
 }
 .button .button2{
     margin-left: 50px;
@@ -967,14 +961,11 @@ height: 50vh;
     padding: 20px;
     display: flex;
     height: 50px;
-<<<<<<< HEAD
-    border-radius: 50%;
-=======
->>>>>>> 357cde5 ( my new portifolio)
  
 }
 .boxes2 .img1{
     margin-left: 20px; 
+    border-radius: 50px;
     opacity: 0;
     translate: -3px 0px;
     animation: lateup1 3s ease 2.5s forwards;
@@ -987,6 +978,7 @@ height: 50vh;
 }
 .boxes2 .img2{
       opacity: 0;
+      border-radius: 50px;
     translate: -15px 0px;
     animation: lateup1 3s ease 3.5s forwards;
 }
@@ -998,6 +990,7 @@ height: 50vh;
 }
 .boxes2 .img3{
    height: 38px;
+   border-radius: 50px;
    opacity: 0;
    translate: -20px 0px;
    animation: lateup1 3s ease 4.5s forwards;
@@ -1035,24 +1028,20 @@ height: 50vh;
         height: 200px !important;
     }
     .content h2{
-<<<<<<< HEAD
         font-size: 40px;
-=======
-        font-size: 30px;
->>>>>>> 357cde5 ( my new portifolio)
         margin-top: 100px;
         padding-left: 10px;
     }
     .content h1{
-        font-size: 40px !important;
+        font-size: 50px !important;
         padding: 10px 5px;
     }
     .content p{
         padding: 5px 3px;
-        font-size: 20px;
+        font-size: 25px;
     }
     .button .button1{
-        font-size: 8px;
+        font-size: 9px;
     }
     .button .button2{
         font-size: 9px;
@@ -1157,12 +1146,10 @@ height: 50vh;
     .boxes2 img{
         height: 50px;
         padding: 10px;
-<<<<<<< HEAD
         border-radius: 50%;
-=======
->>>>>>> 357cde5 ( my new portifolio)
     }
     .boxes2 .img3{
       padding-right: 20px !important;
+      border-radius: 5px;
     }
 }

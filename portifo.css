@@ -72,7 +72,14 @@ body{
     display: inline;
     background-color: black;
 }
-
+@media(prefers-color-scheme: light){
+    body{
+        background-color: whitesmoke;
+    }
+    .top{
+        filter: drop-shadow(4px 4px 0px hsl(132, 100%, 1%));
+    }
+}
 /*-- section--*/
 
 .section{
@@ -121,6 +128,11 @@ nav{
     text-decoration: none;
     font-family: font10;     /*font10  */
     font-size: 13px;
+}
+@media(prefers-color-scheme: light){
+    .nav ul li a{
+        color: rgb(0, 18, 19);
+    }
 }
 ul li a:hover,ul li:hover{
     color: wheat; 
@@ -195,6 +207,14 @@ font-family: font1;
     font-size: 35px;
     animation: downslide alternate;
 }
+@media(prefers-color-scheme: light){
+        .content img{
+            filter: drop-shadow(4px 4px 0px hsl(132, 100%, 1%));
+        }
+.content p{
+    color: rgb(37, 37, 37);
+}
+}
 .content .words{
     display: inline;
     position: relative;
@@ -229,6 +249,11 @@ font-family: font1;
     border-radius: 12.5px;
     letter-spacing: 1px;
     height: fit-content;
+}
+@media(prefers-color-scheme: light){
+    .button button{
+        color: rgb(73, 73, 73);
+    }
 }
 .button .button1{
     letter-spacing: 2px;
@@ -270,6 +295,11 @@ button:hover{
     padding-bottom: 20px;
     font-family: font6;
     font-size: 40px;
+}
+@media(prefers-color-scheme: light){
+    .about h2{
+        color: cadetblue;
+    }
 }
 .allpara{
     display: grid;
@@ -394,6 +424,11 @@ h2{
     font-weight: 100;
 
 }
+@media(prefers-color-scheme: light){
+    .skills h2{
+        color: cadetblue;
+    }
+}
 .cards{
     display: flex;                        /* display: flex */  
     flex-direction: column;
@@ -434,6 +469,11 @@ h2{
     translate: 0px 8px;
     animation: button1 1s ease-in forwards 0.5s;
 }
+@media(prefers-color-scheme: light){
+    .click1 button{
+        color: black;
+    }
+}
 @keyframes button1 {
     80%,100%{
         opacity: 1;
@@ -466,6 +506,11 @@ h2{
     opacity: 0;
     translate: 0px 8px;
     animation: button2 1s ease-in forwards 1s;
+}
+@media(prefers-color-scheme: light){
+    .click2 button{
+        color: black;
+    }
 }
 @keyframes button2 {
     80%,100%{
@@ -500,6 +545,11 @@ h2{
     opacity: 0;
     translate: 0px 8px;
     animation: button3 1s ease-in forwards 1.7s;
+}
+@media(prefers-color-scheme: light){
+    .click3 button{
+        color: black;
+    }
 }
 @keyframes button3 {
     80%,100%{
@@ -552,6 +602,14 @@ h2{
         translate: 0px 0px;
     }
     
+}
+@media(prefers-color-scheme: light){
+    .cardalign1 h3{
+        color: black;
+    }
+    .cardalign1 p{
+        color: black;
+    }
 }
 .cardalign1 img{
     position: relative;
@@ -615,6 +673,14 @@ h2{
     }
     
 }
+@media(prefers-color-scheme: light){
+    .cardalign2 h3{
+        color: black;
+    }
+    .cardalign2 p{
+        color: black;
+    }
+}
 .cardalign2 img{
     position: relative;
     height: 50px;
@@ -676,6 +742,14 @@ h2{
         translate: 0px 0px;
     }
     
+}
+@media(prefers-color-scheme: light){
+    .cardalign3 h3{
+        color: black;
+    }
+    .cardalign3 p{
+        color: black;
+    }
 }
 .cardalign3 img{
     position: relative;
@@ -750,6 +824,11 @@ h2{
 .cstyle h3{
     color: aliceblue;
     font-family: font6;
+}
+@media(prefers-color-scheme: light){
+    .cstyle h3{
+        color: cadetblue;
+    }
 }
 /* creating buttons and slides */
 .slides{
@@ -838,6 +917,11 @@ height: 50vh;
     padding-top: 0px;
     letter-spacing: 2px;
 }
+@media(prefers-color-scheme: light){
+    .profiles h3{
+        color: rgb(80, 80, 80);
+    }
+}
 .infos{
     display: flex;
     justify-content: center;
@@ -891,6 +975,11 @@ label p a{
     color: aliceblue;
     font-family: font2;
 }
+@media(prefers-color-scheme: light){
+    label p{
+        color: black;
+    }
+}
 /* cardbox content finish */
 /* next content */
 .cardbox2{
@@ -930,6 +1019,11 @@ height: 50vh;
     font-family: font16;
     padding-top: 0px;
     letter-spacing: 2px;
+}
+@media(prefers-color-scheme: light){
+    .profiles2 h3{
+        color: rgb(80, 80, 80);
+    }
 }
 .infos2{
     display: flex;
@@ -999,6 +1093,11 @@ height: 50vh;
     to{
         opacity: 1;
         translate: 0px 0px;
+    }
+}
+@media(prefers-color-scheme: light){
+    .boxes2 a img{
+        filter: drop-shadow(1px 1px 0px hsla(129, 100%, 1%, 0.822));
     }
 }
 

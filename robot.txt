@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: 
-Sitemap: https://blackstarscom.netlify.app/sitemap.xml
+Sitemap:https://blackstarscom.netlify.app/sitemap.xml
 User-agent: Googlebot
 Disallow: 
 User-agent: googlebot-image
@@ -9,4 +9,4 @@ User-agent: googlebot-mobile
 Disallow: 
 User-agent: MSNBot
 Disallow: 
-Disallow: 
+Disallow:/ 
